@@ -8,6 +8,7 @@ import {
   SiReact,
   SiTailwindcss,
   SiTensorflow,
+  SiVite
 } from "react-icons/si";
 import { RevealOnScroll } from "../RevealOnScroll";
 import { CustomCursor } from "../CustomCursor";
@@ -26,6 +27,7 @@ export const Project = () => {
       "FastAPI",
       "React",
       "Gemini",
+      "Vite",
       "Huggingface",
       "Langchain",
       "Docker"
@@ -83,6 +85,12 @@ export const Project = () => {
       color:"text-white",
       hoverColor:"hover:text-gray-500",
       glow:"hover:[filter:drop-shadow(0_0_5px_gray)_drop-shadow(0_0_10px_gray)_drop-shadow(0_0_15px_gray)]"
+    },
+    vite:{
+      icon:<SiVite />,
+      color:"text-white",
+      hoverColor:"hover:text-violet-500",
+      glow:"hover:[filter:drop-shadow(0_0_5px_pink)_drop-shadow(0_0_10px_pink)_drop-shadow(0_0_15px_pink)]"
     }
   };
 
