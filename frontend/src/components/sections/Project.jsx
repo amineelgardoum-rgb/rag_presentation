@@ -31,7 +31,7 @@ export const Project = () => {
       "Docker"
     ],
     link: "https://github.com/amineelgardoum-rgb/Rag_amine_chatbot",
-    video_link:"https://drive.google.com/file/d/1YpgZaO0c_Q_K_qkgTD9gN8g8OE3YMdhl/view?usp=drive_link",
+    video_link:"https://drive.google.com/file/d/1BKVdfv45SAt5KYmZ9y06OcjBwSc6EqX7/view?usp=drive_link",
     image: "/images/structure.png",
   };
 
